@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CustomSegmentedButton</string>
+    <string-array name="seg_option">
+        <item>Good</item>
+        <item>Bad</item>
+        <item>Neutral</item>
+    </string-array>
+</resources>

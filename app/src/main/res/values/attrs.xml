@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SegmentedButton">
+        <attr name="num_options" format="integer"/>
+        <attr name="selected_text_color" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="button_bg" format="color"/>
+        <attr name="selected_button_bg" format="color"/>
+        <attr name="button_padding" format="dimension"/>
+        <attr name="text_font_size" format="dimension"/>
+        <attr name="android:entries"/>
+        <attr name="background_drawable" format="integer"/>
+        <attr name="selected" format="integer"/>
+    </declare-styleable>
+</resources>
