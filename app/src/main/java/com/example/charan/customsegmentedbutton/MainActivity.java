@@ -22,9 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
         segmentedButton.setOnOptionChangedListener(new OnOptionChangedListener() {
             @Override
-            public void onChange() {
-                int pos = segmentedButton.getPosition();
-                textView.setText("Position: " + pos);
+            public void onChange(int position) {
+                textView.setText("Position: " + position);
             }
         });
     }
